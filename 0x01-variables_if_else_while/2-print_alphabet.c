@@ -1,13 +1,19 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - main fuction
  *
- * Return: always 0
+ * Return: always 0 (success)
  */
+
 int main(void)
 {
-	for (i = 'a' i <= 'z' ; !++)
+	char letter = 'a';
+	int i;
+
+	for (i = 'a' ; i <= 'z' ; i++)
+	{
 		putchar(i);
+	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
