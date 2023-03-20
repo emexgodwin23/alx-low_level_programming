@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - main function
  *
@@ -16,7 +15,7 @@ int main(void)
 	{
 		putchar(i + '0');
 		if (i != 9)
-		{	
+		{
 			putchar(',');
 			putchar(' ');
 		}
